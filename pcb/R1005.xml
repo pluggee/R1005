@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/sherif/git/R1005/pcb/R1005.sch</source>
+    <date>Fri 19 Aug 2016 03:57:51 PM PDT</date>
+    <tool>Eeschema 4.0.2+e4-6225~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>R1005.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>PCIEXPRESS-X1</value>
+      <footprint>Main:PCIEXPRESS-X1</footprint>
+      <fields>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="MPN">10018784-10200TLF</field>
+      </fields>
+      <libsource lib="connect" part="PCIEXPRESS-X1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575CF2BC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_R1000A_EXTENSION</value>
+      <footprint>Main:CONN127P-02X10</footprint>
+      <fields>
+        <field name="Manufacturer">CNC Tech</field>
+        <field name="MPN">3221-20-0200-00</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <libsource lib="connect" part="CONN_R1000A_EXTENSION"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>579D0199</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="connect" part="CONN_R1000A_EXTENSION">
+      <description>R1000A Extenstion Connector : 20 pin 50 Mil connector 2x10</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_R1000A_EXTENSION</field>
+        <field name="Footprint">Main:CONN127P-02X10</field>
+        <field name="Manufacturer">CNC Tech</field>
+        <field name="MPN">3221-20-0200-00</field>
+        <field name="SKU">STUFF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~MRESET" type="BiDi"/>
+        <pin num="2" name="C2D" type="BiDi"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="SCLK" type="BiDi"/>
+        <pin num="5" name="SCL" type="BiDi"/>
+        <pin num="6" name="RESERVED0" type="BiDi"/>
+        <pin num="7" name="PX4" type="BiDi"/>
+        <pin num="8" name="ID3" type="BiDi"/>
+        <pin num="9" name="PX3" type="BiDi"/>
+        <pin num="10" name="ID2" type="BiDi"/>
+        <pin num="11" name="PX2" type="BiDi"/>
+        <pin num="12" name="ID1" type="BiDi"/>
+        <pin num="13" name="PX1" type="BiDi"/>
+        <pin num="14" name="ID0" type="BiDi"/>
+        <pin num="15" name="5V" type="BiDi"/>
+        <pin num="16" name="3V3" type="BiDi"/>
+        <pin num="17" name="HT" type="BiDi"/>
+        <pin num="18" name="GND" type="BiDi"/>
+        <pin num="19" name="HT" type="BiDi"/>
+        <pin num="20" name="GND" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="connect" part="PCIEXPRESS-X1">
+      <description>PCI Express x1 Board Edge</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PCIEXPRESS-X1</field>
+        <field name="Footprint">Main:PCIEXPRESS-X1</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="MPN">10018784-10200TLF</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="A1" type="BiDi"/>
+        <pin num="A2" name="A2" type="BiDi"/>
+        <pin num="A3" name="A3" type="BiDi"/>
+        <pin num="A4" name="A4" type="BiDi"/>
+        <pin num="A5" name="A5" type="BiDi"/>
+        <pin num="A6" name="A6" type="BiDi"/>
+        <pin num="A7" name="A7" type="BiDi"/>
+        <pin num="A8" name="A8" type="BiDi"/>
+        <pin num="A9" name="A9" type="BiDi"/>
+        <pin num="A10" name="A10" type="BiDi"/>
+        <pin num="A11" name="A11" type="BiDi"/>
+        <pin num="A12" name="A12" type="BiDi"/>
+        <pin num="A13" name="A13" type="BiDi"/>
+        <pin num="A14" name="A14" type="BiDi"/>
+        <pin num="A15" name="A15" type="BiDi"/>
+        <pin num="A16" name="A16" type="BiDi"/>
+        <pin num="A17" name="A17" type="BiDi"/>
+        <pin num="A18" name="A18" type="BiDi"/>
+        <pin num="B1" name="B1" type="BiDi"/>
+        <pin num="B2" name="B2" type="BiDi"/>
+        <pin num="B3" name="B3" type="BiDi"/>
+        <pin num="B4" name="B4" type="BiDi"/>
+        <pin num="B5" name="B5" type="BiDi"/>
+        <pin num="B6" name="B6" type="BiDi"/>
+        <pin num="B7" name="B7" type="BiDi"/>
+        <pin num="B8" name="B8" type="BiDi"/>
+        <pin num="B9" name="B9" type="BiDi"/>
+        <pin num="B10" name="B10" type="BiDi"/>
+        <pin num="B11" name="B11" type="BiDi"/>
+        <pin num="B12" name="B12" type="BiDi"/>
+        <pin num="B13" name="B13" type="BiDi"/>
+        <pin num="B14" name="B14" type="BiDi"/>
+        <pin num="B15" name="B15" type="BiDi"/>
+        <pin num="B16" name="B16" type="BiDi"/>
+        <pin num="B17" name="B17" type="BiDi"/>
+        <pin num="B18" name="B18" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="connect">
+      <uri>/home/sherif/git/KiCADLibs/sch/connect.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="SCLK">
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="B17"/>
+    </net>
+    <net code="2" name="RESERVED0">
+      <node ref="J1" pin="B16"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="3" name="ID3">
+      <node ref="J2" pin="8"/>
+      <node ref="J1" pin="B15"/>
+    </net>
+    <net code="4" name="ID2">
+      <node ref="J2" pin="10"/>
+      <node ref="J1" pin="B14"/>
+    </net>
+    <net code="5" name="ID1">
+      <node ref="J1" pin="B13"/>
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="6" name="HT">
+      <node ref="J1" pin="A2"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="J1" pin="A3"/>
+      <node ref="J1" pin="A8"/>
+      <node ref="J1" pin="A7"/>
+      <node ref="J1" pin="A6"/>
+      <node ref="J1" pin="A5"/>
+      <node ref="J1" pin="A4"/>
+      <node ref="J2" pin="19"/>
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="J1" pin="B6"/>
+      <node ref="J1" pin="B5"/>
+      <node ref="J1" pin="B4"/>
+      <node ref="J1" pin="B8"/>
+      <node ref="J1" pin="B3"/>
+      <node ref="J1" pin="B7"/>
+      <node ref="J1" pin="B2"/>
+      <node ref="J1" pin="B1"/>
+      <node ref="J2" pin="20"/>
+      <node ref="J2" pin="18"/>
+    </net>
+    <net code="8" name="PX1">
+      <node ref="J2" pin="13"/>
+      <node ref="J1" pin="A12"/>
+    </net>
+    <net code="9" name="PX2">
+      <node ref="J2" pin="11"/>
+      <node ref="J1" pin="A13"/>
+    </net>
+    <net code="10" name="+3V3">
+      <node ref="J2" pin="16"/>
+      <node ref="J1" pin="B11"/>
+      <node ref="J1" pin="B10"/>
+      <node ref="J1" pin="B9"/>
+    </net>
+    <net code="11" name="+5V">
+      <node ref="J2" pin="15"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="J1" pin="A10"/>
+      <node ref="J1" pin="A11"/>
+    </net>
+    <net code="12" name="PX3">
+      <node ref="J1" pin="A14"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="13" name="PX4">
+      <node ref="J1" pin="A15"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="14" name="SCL">
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="A16"/>
+    </net>
+    <net code="15" name="SDA">
+      <node ref="J1" pin="A17"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="16" name="~MRESET">
+      <node ref="J1" pin="A18"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="17" name="ID0">
+      <node ref="J2" pin="14"/>
+      <node ref="J1" pin="B12"/>
+    </net>
+    <net code="18" name="C2D">
+      <node ref="J1" pin="B18"/>
+      <node ref="J2" pin="2"/>
+    </net>
+  </nets>
+</export>
