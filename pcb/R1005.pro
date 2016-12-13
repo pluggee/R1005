@@ -1,4 +1,4 @@
-update=Sat 30 Jul 2016 10:44:37 AM PDT
+update=Mon 12 Dec 2016 05:59:43 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=$HOME/git/KiCADLibs/sch
@@ -31,5 +33,4 @@ LibName1=power
 LibName2=device
 LibName3=analog
 LibName4=connect
-[general]
-version=1
+LibName5=systems
