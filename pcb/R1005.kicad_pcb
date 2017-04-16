@@ -3,7 +3,7 @@
   (general
     (links 72)
     (no_connects 0)
-    (area 124.924999 69.924999 170.075001 103.375001)
+    (area 124.2 68.4 175.400001 104.500001)
     (thickness 1.6)
     (drawings 23)
     (tracks 200)
@@ -441,7 +441,7 @@
     )
   )
 
-  (gr_text "R1005 v1.1\nBreakout Board\nplugg.ee Labs LLC\nhttp://plugg.ee" (at 127 81.8) (layer F.SilkS)
+  (gr_text "R1005 v1.1.1\nBreakout Board\nplugg.ee Labs LLC\nhttp://plugg.ee" (at 127 81.8) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)) (justify left))
   )
   (gr_arc (start 169.6 70.4) (end 170 70.4) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 575A0A41))
