@@ -434,6 +434,11 @@
       (net 15 SDA))
     (pad 1 thru_hole circle (at 5.715 0.635 270) (size 0.75 0.75) (drill 0.6) (layers *.Cu *.Mask B.SilkS)
       (net 16 ~MRESET))
+    (model main.3dshapes/CONN127P-02X10.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_text "R1005 v1.1\nBreakout Board\nplugg.ee Labs LLC\nhttp://plugg.ee" (at 127 81.8) (layer F.SilkS)
